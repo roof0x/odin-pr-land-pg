@@ -1,4 +1,28 @@
 header {
-    font: 48px extra-bold #f9faf8;
+    color:#f9faf8;
     background-color: #1f2927;
+    font: 48px extra-bold;
 }
+
+.h-logo  {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+img {
+    font: roboto;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+a   {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: inherit;
+    cursor: inherit;
+  }
+
+  header p    {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
