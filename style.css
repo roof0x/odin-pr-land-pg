@@ -1,20 +1,46 @@
 header {
+    display: grid;
     color:#f9faf8;
     background-color: #1f2937;
-    font: 48px extra-bold;
+    font-size: 48px extra-bold;
+    grid-template-columns: 1fr 1fr;
+    padding: 0% 10% 10%;
+}
+
+.header-content  {
+    grid-column-start: 1;
 }
 
 .h-logo  {
     font-size: 24px;
+    font-weight: bolder;
     color: #f9faf8;
+}
+.h-links    {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    gap: 1em;
+}
+
+.header-content > p {
+    font-size: 18px;
+}
+body  {
+    margin: 0px;
 }
 
 .image-placeholder {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(109, 109, 109);
+    grid-column-start: 2;
     display: flex;
-    height: 150px;
+    height: auto;
     margin: 5px;
-    width: 400px;
+    width: min(400px) max(800px);
+    
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .image-placeholder > p {
@@ -33,4 +59,13 @@ a   {
   header p    {
     font-size: 18px;
     color: #e5e7eb;
+  }
+  
+  button    {
+    background-color: #3882f6;
+    font-size: 18px ;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border: 0;
+    padding: 0.1em 1.5rem;
   }
