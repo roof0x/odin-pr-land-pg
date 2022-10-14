@@ -1,6 +1,6 @@
 header {
     color:#f9faf8;
-    background-color: #1f2927;
+    background-color: #1f2937;
     font: 48px extra-bold;
 }
 
@@ -9,10 +9,19 @@ header {
     color: #f9faf8;
 }
 
-img {
-    font: roboto;
-    font-size: 18px;
-    color: #f9faf8;
+.image-placeholder {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    height: 150px;
+    margin: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.image-placeholder > p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
 }
 
 a   {
